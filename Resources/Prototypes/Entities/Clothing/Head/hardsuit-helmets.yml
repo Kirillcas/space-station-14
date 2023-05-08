@@ -597,3 +597,28 @@
         Blunt: 0.95
         Slash: 0.95
         Piercing: 0.95
+    
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitTest
+  noSpawn: true
+  name: Test hardsuit helmet
+  description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/salvage.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/salvage.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+  - type: PointLight
+    radius: 7
+    energy: 3
+    color: "#9400D3"
