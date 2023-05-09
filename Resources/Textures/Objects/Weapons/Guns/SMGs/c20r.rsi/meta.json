@@ -8,7 +8,8 @@
   },
   "states": [
     {
-      "name": "inhand-right"
+      "name": "inhand-right",
+      "directions": 4
     },
     {
       "name": "mag-0"
@@ -35,13 +36,15 @@
       "name": "base"
     },
     {
-      "name": "equipped-BACKPACK"
+      "name": "equipped-BACKPACK",
+      "directions": 4
     },
     {
       "name": "icon"
     },
     {
-      "name": "inhand-left"
+      "name": "inhand-left",
+      "directions": 4
     }
   ]
 }
